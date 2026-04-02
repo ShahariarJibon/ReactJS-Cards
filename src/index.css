@@ -1,0 +1,92 @@
+body{
+  min-height: 100vh;
+  width: 100vw;
+  background: #DAF9DE;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.parent{
+  height: 400px;
+  width: 260px;
+  background: #224325;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+
+.parent .img-box{
+  height: 220px;
+  width: 230px;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 20px 0px #63905a;
+  margin-top: 15px;
+}
+
+.parent img{
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  scale: 1.1;
+  object-fit: cover;
+  display: block;
+  position: relative;
+  bottom: 20px;
+  border-radius: 30px;
+}
+
+.parent .delivery{
+  font-family: sans-serif;
+  color: white;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.parent .texts{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  color: white;
+  width: 90%;
+}
+
+.parent .texts .left{
+  margin-top: 10px;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.parent .texts .left span{
+  background: #79AE6F;
+  padding: 5px 5px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+}
+
+.parent .texts .right{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.parent .texts .right a{
+  text-decoration: none;
+  color: white;
+  background: #79AE6F;
+  border-radius: 10px;
+  padding: 5px 8px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
