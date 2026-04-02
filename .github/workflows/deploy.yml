@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write        # ✅ এই দুই লাইন যোগ করো
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
